@@ -1,0 +1,9 @@
+﻿entity,type,description
+Operations,department,Handles day-to-day operations
+Sales,department,Manages client relations
+Engineering,department,Builds products
+HR,department,People management
+Finance,department,Financial oversight
+IC,role_level,Individual Contributor
+Manager,role_level,Team lead
+Senior Leader,role_level,Executive level

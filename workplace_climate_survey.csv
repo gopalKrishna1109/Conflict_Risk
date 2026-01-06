@@ -1,0 +1,111 @@
+﻿response_id,department,role_level,location,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,open_comment_1,open_comment_2,open_comment_3,timestamp
+RESP_0001,HR,Senior Leader,New York,3,2,4,5,2,3,5,3,3,4,3,4,3,1,1,4,5,1,,Good team support,,9/1/2025
+RESP_0002,Finance,IC,San Francisco,4,3,3,5,3,3,4,2,4,3,3,2,5,4,2,2,1,3,,,,9/1/2025
+RESP_0003,Engineering,Manager,San Francisco,1,1,1,2,5,3,3,4,3,4,2,5,5,4,4,3,2,4,,,,9/2/2025
+RESP_0004,Finance,IC,Remote,4,2,1,1,1,1,1,5,3,2,5,1,1,5,2,5,4,2,,Manager is great,Wellness programs,9/3/2025
+RESP_0005,Finance,Senior Leader,San Francisco,3,5,2,2,2,3,3,1,1,4,4,1,3,5,4,5,2,5,External news affecting mood,,,9/4/2025
+RESP_0006,Sales,Senior Leader,London,1,2,3,3,2,4,3,4,4,1,4,5,4,5,4,1,2,1,,,Better communication tools,9/5/2025
+RESP_0007,Engineering,Manager,New York,4,2,4,2,2,4,5,3,5,2,3,1,1,3,3,4,1,2,,Manager is great,,9/6/2025
+RESP_0008,Engineering,IC,Remote,4,1,5,2,3,1,4,4,1,3,2,1,3,4,3,4,1,5,Collaboration is tough lately,,,9/7/2025
+RESP_0009,Engineering,Senior Leader,New York,3,4,5,5,5,3,2,5,1,1,4,1,3,3,4,5,1,2,,,,9/8/2025
+RESP_0010,Finance,Manager,New York,1,2,4,5,5,3,4,1,5,2,3,4,1,1,4,3,1,4,,,,9/9/2025
+RESP_0001,Finance,IC,Remote,2,1,4,5,2,3,1,4,4,4,1,2,5,3,4,4,2,4,Workload is high,Wellness programs,Manager is great,12/7/2025
+RESP_0002,Engineering,Senior Leader,San Francisco,3,2,4,3,4,5,2,4,1,1,5,5,5,5,2,3,1,4,Collaboration is tough lately,Team is supportive,Good team support,11/26/2025
+RESP_0003,Sales,Senior Leader,Remote,2,3,3,5,3,4,2,5,3,4,5,4,1,3,4,4,4,5,Wellness programs,,External news affecting mood,10/29/2025
+RESP_0004,Finance,IC,San Francisco,2,5,3,1,3,2,5,1,4,1,4,5,5,1,1,1,2,2,Better communication tools,,Better communication tools,9/21/2025
+RESP_0005,Sales,Manager,New York,5,1,4,1,1,5,4,1,5,2,1,5,3,1,1,5,4,3,Collaboration is tough lately,Manager is great,External news affecting mood,11/9/2025
+RESP_0006,Finance,Senior Leader,Remote,4,4,5,1,5,1,2,3,2,1,1,5,3,4,4,1,2,3,Changes are overwhelming,Good team support,Workload is high,12/2/2025
+RESP_0007,HR,IC,San Francisco,3,4,4,1,2,2,2,3,3,5,4,1,2,1,5,2,3,1,Workload is high,Collaboration is tough lately,Team is supportive,9/11/2025
+RESP_0008,Sales,Manager,London,2,3,3,2,1,4,5,2,5,4,4,2,4,1,2,2,2,4,,Need more flexibility,Collaboration is tough lately,12/5/2025
+RESP_0009,Sales,Senior Leader,San Francisco,3,4,3,1,1,1,1,5,1,2,1,1,2,1,1,5,5,2,Team is supportive,Wellness programs,Collaboration is tough lately,10/8/2025
+RESP_0010,Sales,Manager,New York,4,3,2,5,4,2,5,5,4,1,1,1,1,2,5,3,5,1,Need more flexibility,Better communication tools,Better communication tools,10/1/2025
+RESP_0011,Sales,Manager,London,4,5,3,1,5,1,5,5,2,3,2,1,2,1,2,1,4,1,Better communication tools,Workload is high,External news affecting mood,9/13/2025
+RESP_0012,Engineering,Senior Leader,New York,3,2,1,4,1,2,5,2,1,1,4,4,4,3,5,3,4,4,Wellness programs,Wellness programs,Wellness programs,12/10/2025
+RESP_0013,Operations,IC,London,2,4,3,4,2,2,1,3,2,3,2,4,4,4,4,1,1,1,Collaboration is tough lately,Good team support,Workload is high,10/13/2025
+RESP_0014,HR,Manager,New York,2,4,3,3,2,2,1,5,3,3,4,4,4,3,1,1,4,3,Better communication tools,,External news affecting mood,11/6/2025
+RESP_0015,Sales,Manager,Remote,1,4,1,2,2,5,4,1,5,3,2,2,3,2,4,4,4,4,Better communication tools,Changes are overwhelming,Collaboration is tough lately,12/21/2025
+RESP_0016,HR,IC,London,3,5,4,4,4,5,4,4,4,4,1,1,4,4,5,4,5,5,Wellness programs,,Collaboration is tough lately,9/8/2025
+RESP_0017,Finance,Senior Leader,San Francisco,3,5,3,2,5,3,2,3,1,2,2,4,3,4,4,3,2,4,Manager is great,Good team support,,10/12/2025
+RESP_0018,HR,IC,New York,4,4,5,2,4,5,1,5,5,4,5,5,5,4,4,5,5,5,Manager is great,Better communication tools,Need more flexibility,9/16/2025
+RESP_0019,Sales,IC,New York,5,1,3,1,5,5,1,5,3,5,3,3,1,5,1,5,4,5,Need more flexibility,Team is supportive,,10/27/2025
+RESP_0020,Finance,Manager,San Francisco,2,2,2,2,5,4,4,4,2,1,2,3,1,1,3,4,1,3,Changes are overwhelming,Workload is high,Better communication tools,9/3/2025
+RESP_0021,Operations,IC,Remote,1,4,4,3,3,2,4,1,1,3,1,2,1,1,3,4,1,4,Wellness programs,,Workload is high,10/2/2025
+RESP_0022,Operations,Senior Leader,Remote,2,1,2,4,4,1,2,1,2,1,4,1,3,4,2,1,4,3,Need more flexibility,Good team support,Need more flexibility,12/2/2025
+RESP_0023,HR,Senior Leader,New York,3,5,1,2,2,2,2,3,4,2,3,1,4,1,1,2,1,3,Better communication tools,Better communication tools,Collaboration is tough lately,9/5/2025
+RESP_0024,Finance,IC,Remote,1,5,2,1,1,5,2,4,3,2,4,2,4,2,1,3,3,5,Good team support,Wellness programs,Collaboration is tough lately,12/11/2025
+RESP_0025,Finance,Manager,New York,4,2,4,3,1,2,4,4,5,3,3,5,5,4,2,5,4,1,Team is supportive,Better communication tools,,10/30/2025
+RESP_0026,Finance,Manager,San Francisco,3,2,5,5,4,1,4,1,1,4,5,4,2,2,5,1,1,1,Collaboration is tough lately,Workload is high,Team is supportive,9/18/2025
+RESP_0027,Finance,Manager,New York,5,5,2,2,1,2,4,5,2,3,3,4,1,2,4,4,4,1,Changes are overwhelming,Manager is great,Better communication tools,11/18/2025
+RESP_0028,Operations,Manager,New York,3,2,2,2,3,2,4,4,4,3,4,3,2,4,2,1,2,3,Good team support,Team is supportive,Team is supportive,10/10/2025
+RESP_0029,Sales,Senior Leader,Remote,5,2,3,4,5,5,2,1,3,5,5,2,4,4,1,1,5,2,Wellness programs,Wellness programs,Better communication tools,9/29/2025
+RESP_0030,Sales,IC,San Francisco,5,4,1,1,3,3,4,3,3,5,3,2,4,1,4,1,3,1,Wellness programs,Team is supportive,Changes are overwhelming,11/2/2025
+RESP_0031,Operations,Senior Leader,Remote,4,4,2,2,2,1,3,4,3,1,3,3,4,1,2,2,1,4,Good team support,Team is supportive,Better communication tools,11/13/2025
+RESP_0032,Sales,Manager,New York,5,3,4,5,2,3,5,2,5,5,2,2,2,3,4,2,1,4,,Workload is high,Good team support,10/26/2025
+RESP_0033,HR,Senior Leader,Remote,5,1,4,3,3,4,1,3,5,1,5,4,4,2,3,3,3,2,Need more flexibility,Good team support,Workload is high,11/26/2025
+RESP_0034,Engineering,IC,Remote,2,5,3,2,2,5,4,3,2,4,2,5,2,1,2,5,3,3,Workload is high,,Need more flexibility,9/21/2025
+RESP_0035,Finance,Manager,New York,2,4,1,2,3,4,4,3,3,4,2,2,1,5,2,3,5,2,Collaboration is tough lately,Need more flexibility,Workload is high,11/9/2025
+RESP_0036,Sales,Senior Leader,Remote,4,5,3,5,1,3,3,2,5,4,2,2,1,2,4,4,1,5,Good team support,,Wellness programs,11/8/2025
+RESP_0037,HR,IC,New York,3,1,1,2,5,2,3,4,5,1,4,5,2,5,1,5,4,1,Good team support,Team is supportive,Better communication tools,11/23/2025
+RESP_0038,Sales,Senior Leader,San Francisco,2,2,4,3,3,2,5,1,3,4,3,3,1,4,5,4,3,2,Good team support,Good team support,Wellness programs,11/5/2025
+RESP_0039,HR,Senior Leader,London,4,5,4,3,5,1,1,4,2,4,3,2,5,4,2,3,4,2,Good team support,Need more flexibility,Workload is high,9/2/2025
+RESP_0040,Engineering,Manager,London,2,3,5,4,3,3,4,5,3,1,5,3,3,1,1,1,3,3,Better communication tools,,Need more flexibility,11/15/2025
+RESP_0041,Sales,Manager,London,1,1,3,1,5,3,2,3,4,1,3,3,3,3,5,3,3,3,Manager is great,External news affecting mood,Better communication tools,10/23/2025
+RESP_0042,Finance,Senior Leader,London,2,4,4,1,4,2,4,1,5,4,4,1,3,3,1,4,1,1,Good team support,Workload is high,Team is supportive,11/6/2025
+RESP_0043,Operations,Manager,London,1,3,4,2,4,4,2,1,4,2,4,1,3,1,2,2,2,2,,Good team support,Team is supportive,9/26/2025
+RESP_0044,Finance,Senior Leader,London,3,2,1,3,3,1,5,3,1,2,4,2,5,5,4,5,5,3,,Changes are overwhelming,Collaboration is tough lately,12/3/2025
+RESP_0045,Finance,Manager,San Francisco,1,4,5,5,3,1,5,5,4,2,5,4,1,3,1,3,4,3,Team is supportive,Manager is great,Collaboration is tough lately,10/17/2025
+RESP_0046,HR,Senior Leader,Remote,1,3,1,4,1,3,2,1,1,3,1,4,3,3,2,2,4,4,Better communication tools,Manager is great,Manager is great,12/21/2025
+RESP_0047,HR,IC,New York,5,2,2,2,3,4,1,4,4,5,4,5,5,3,4,5,4,5,Team is supportive,,Collaboration is tough lately,11/30/2025
+RESP_0048,Engineering,Manager,New York,3,2,4,4,4,2,5,2,4,3,2,2,2,1,1,2,1,4,,Team is supportive,,9/22/2025
+RESP_0049,HR,Manager,San Francisco,3,2,2,1,4,1,2,5,2,2,3,2,4,3,2,1,4,4,,Team is supportive,Wellness programs,9/21/2025
+RESP_0050,Finance,Senior Leader,San Francisco,2,5,5,3,2,4,4,3,3,3,5,2,2,1,5,1,3,1,Changes are overwhelming,Wellness programs,Wellness programs,9/30/2025
+RESP_0051,HR,Manager,Remote,3,3,4,4,3,5,1,4,4,3,3,5,5,3,1,3,5,4,Collaboration is tough lately,Team is supportive,Good team support,11/10/2025
+RESP_0052,HR,Senior Leader,Remote,4,3,5,2,1,4,5,5,2,2,3,1,2,4,1,2,1,4,Changes are overwhelming,Good team support,Need more flexibility,9/19/2025
+RESP_0053,Engineering,Senior Leader,New York,2,1,4,4,1,1,2,3,2,1,5,4,5,1,2,4,2,4,Need more flexibility,Team is supportive,Wellness programs,11/18/2025
+RESP_0054,Operations,Senior Leader,San Francisco,2,3,3,2,2,3,2,4,2,2,4,1,4,1,4,1,2,3,Need more flexibility,Changes are overwhelming,External news affecting mood,12/18/2025
+RESP_0055,Sales,Senior Leader,New York,2,2,1,3,1,4,1,3,3,4,1,5,5,3,3,4,3,5,Team is supportive,Team is supportive,Changes are overwhelming,10/17/2025
+RESP_0056,Sales,Senior Leader,Remote,1,1,5,2,2,4,2,3,3,1,3,5,5,2,2,5,1,1,Workload is high,External news affecting mood,Better communication tools,9/2/2025
+RESP_0057,Finance,Manager,Remote,4,1,2,5,5,2,5,3,4,1,1,3,2,4,4,4,3,3,,Wellness programs,Manager is great,10/5/2025
+RESP_0058,Operations,Manager,New York,1,1,4,4,1,2,2,4,2,1,1,4,3,4,3,4,3,2,Team is supportive,Collaboration is tough lately,Collaboration is tough lately,12/17/2025
+RESP_0059,Operations,Manager,New York,1,3,4,3,1,4,2,1,4,3,4,2,3,1,4,1,1,4,Changes are overwhelming,Wellness programs,External news affecting mood,9/18/2025
+RESP_0060,Operations,IC,London,1,4,4,1,4,2,3,1,3,3,3,4,3,4,2,4,3,2,Better communication tools,Manager is great,Changes are overwhelming,11/6/2025
+RESP_0061,Finance,Manager,London,1,2,1,4,5,3,2,3,3,3,2,4,2,3,1,5,4,3,Workload is high,Workload is high,Better communication tools,11/17/2025
+RESP_0062,Finance,Senior Leader,London,5,2,2,5,2,4,5,1,1,3,2,3,3,2,3,3,3,5,Team is supportive,External news affecting mood,Team is supportive,11/25/2025
+RESP_0063,Finance,Senior Leader,Remote,5,5,3,1,2,2,1,5,1,3,3,5,4,2,4,4,5,4,Manager is great,Collaboration is tough lately,Changes are overwhelming,11/4/2025
+RESP_0064,Finance,Senior Leader,London,1,1,3,2,2,1,3,4,3,2,3,1,5,3,3,5,1,2,Better communication tools,Changes are overwhelming,Need more flexibility,12/21/2025
+RESP_0065,Engineering,Manager,San Francisco,2,3,1,4,5,4,2,2,4,2,2,3,3,2,3,5,3,1,Need more flexibility,Collaboration is tough lately,Better communication tools,12/16/2025
+RESP_0066,Engineering,Senior Leader,Remote,4,1,4,2,3,1,1,3,3,4,5,2,3,1,2,3,4,2,Better communication tools,Changes are overwhelming,Need more flexibility,11/24/2025
+RESP_0067,Engineering,IC,New York,4,1,2,1,3,4,1,2,3,1,5,1,3,2,5,2,5,5,Collaboration is tough lately,Wellness programs,External news affecting mood,10/16/2025
+RESP_0068,Operations,Senior Leader,San Francisco,2,4,2,1,2,1,1,3,2,1,1,3,2,3,4,4,1,2,Team is supportive,Good team support,Wellness programs,11/12/2025
+RESP_0069,Operations,Manager,Remote,4,2,4,1,1,3,2,4,3,3,1,3,4,3,1,3,2,2,Collaboration is tough lately,Need more flexibility,Collaboration is tough lately,10/20/2025
+RESP_0070,Engineering,Manager,Remote,5,3,5,1,5,3,5,3,5,5,1,3,3,5,1,1,5,1,,External news affecting mood,Changes are overwhelming,11/5/2025
+RESP_0071,Operations,Senior Leader,New York,4,1,4,2,1,3,3,3,3,2,2,1,3,4,4,2,2,3,Workload is high,Better communication tools,Wellness programs,11/5/2025
+RESP_0072,Finance,IC,London,5,5,1,2,5,2,1,3,3,1,2,3,3,3,3,3,5,3,Need more flexibility,Collaboration is tough lately,External news affecting mood,9/21/2025
+RESP_0073,Engineering,Senior Leader,New York,4,5,3,5,5,3,3,1,4,4,1,3,2,3,2,5,3,3,,,Collaboration is tough lately,10/17/2025
+RESP_0074,Finance,IC,New York,3,2,3,4,5,1,5,5,2,2,5,1,1,2,1,2,5,2,Changes are overwhelming,Team is supportive,Workload is high,12/15/2025
+RESP_0075,HR,IC,Remote,3,2,5,3,4,5,5,2,4,4,2,2,4,4,1,2,1,2,Workload is high,Wellness programs,Wellness programs,11/11/2025
+RESP_0076,Engineering,IC,San Francisco,5,1,5,3,2,1,3,1,2,2,1,4,2,5,2,3,4,2,Team is supportive,Good team support,Changes are overwhelming,9/4/2025
+RESP_0077,HR,Manager,London,2,4,1,4,1,4,1,4,5,5,3,2,2,3,2,1,5,4,,Wellness programs,Team is supportive,9/19/2025
+RESP_0078,Sales,Manager,Remote,2,5,3,2,4,1,1,3,4,3,2,5,3,3,5,5,5,2,Manager is great,Need more flexibility,Team is supportive,9/18/2025
+RESP_0079,Engineering,Manager,Remote,2,5,5,1,4,3,3,1,2,3,2,5,2,2,2,1,5,4,Workload is high,Workload is high,Better communication tools,11/28/2025
+RESP_0080,Operations,IC,San Francisco,2,3,1,3,1,3,2,3,3,3,4,1,1,4,1,2,4,3,Wellness programs,Team is supportive,Manager is great,9/12/2025
+RESP_0081,Engineering,IC,Remote,2,2,2,4,5,1,1,4,1,2,5,2,2,4,1,4,5,3,,Good team support,,10/4/2025
+RESP_0082,HR,Manager,Remote,1,4,1,4,3,1,4,2,1,2,5,1,3,1,3,2,3,1,Team is supportive,Collaboration is tough lately,Better communication tools,11/15/2025
+RESP_0083,HR,IC,Remote,5,2,2,2,1,4,3,1,4,3,1,1,5,1,1,3,2,2,Good team support,Wellness programs,External news affecting mood,9/27/2025
+RESP_0084,HR,IC,San Francisco,2,1,3,4,5,3,1,3,3,3,2,5,5,4,4,2,4,3,External news affecting mood,Manager is great,External news affecting mood,12/18/2025
+RESP_0085,Engineering,Senior Leader,San Francisco,1,4,4,1,1,3,3,1,4,1,2,2,1,5,5,2,5,2,Better communication tools,Better communication tools,Workload is high,9/6/2025
+RESP_0086,Engineering,Senior Leader,San Francisco,5,3,2,2,1,5,2,1,1,4,1,1,2,1,3,1,5,4,Manager is great,Team is supportive,Need more flexibility,12/20/2025
+RESP_0087,HR,Manager,London,5,1,2,1,4,1,1,4,3,2,1,4,3,1,1,5,2,3,Manager is great,Workload is high,External news affecting mood,10/16/2025
+RESP_0088,HR,Manager,London,2,3,5,2,4,2,1,3,1,5,5,4,3,2,2,4,1,3,Good team support,Need more flexibility,Better communication tools,11/13/2025
+RESP_0089,Operations,Senior Leader,London,2,4,3,2,3,4,3,1,1,4,4,2,4,4,2,3,3,4,,,Changes are overwhelming,9/25/2025
+RESP_0090,HR,IC,Remote,3,3,3,1,2,2,4,1,3,4,4,5,5,4,5,3,4,5,Good team support,Need more flexibility,Good team support,10/26/2025
+RESP_0091,HR,Manager,New York,5,5,1,5,2,5,4,2,2,5,5,5,1,1,1,2,3,3,Team is supportive,Manager is great,,10/4/2025
+RESP_0092,Finance,IC,San Francisco,3,1,1,1,1,5,3,3,5,5,1,1,2,1,2,5,5,5,Good team support,Need more flexibility,,9/27/2025
+RESP_0093,Engineering,Senior Leader,Remote,5,5,1,3,2,5,1,3,2,4,3,3,1,5,4,5,4,3,Wellness programs,Manager is great,Team is supportive,10/11/2025
+RESP_0094,Operations,IC,San Francisco,4,3,3,4,4,2,1,2,3,4,2,4,4,2,1,2,3,3,Need more flexibility,Workload is high,Manager is great,11/24/2025
+RESP_0095,Sales,Manager,Remote,2,1,3,4,1,1,2,4,5,2,5,1,1,3,1,3,2,3,,Changes are overwhelming,Good team support,11/1/2025
+RESP_0096,Engineering,Senior Leader,San Francisco,2,5,5,3,5,2,5,2,4,5,2,4,1,2,1,3,5,2,Workload is high,External news affecting mood,,11/29/2025
+RESP_0097,Sales,Senior Leader,New York,4,4,2,4,5,4,3,1,1,1,3,5,3,1,3,2,3,5,Workload is high,Workload is high,Collaboration is tough lately,9/12/2025
+RESP_0098,Sales,IC,San Francisco,4,5,1,5,4,2,5,5,1,1,5,2,1,1,2,2,1,1,Better communication tools,Better communication tools,Manager is great,11/18/2025
+RESP_0099,Engineering,IC,Remote,2,5,3,5,4,2,4,2,3,2,2,1,1,5,5,4,4,3,Need more flexibility,Changes are overwhelming,Wellness programs,9/15/2025
+RESP_0100,HR,Manager,San Francisco,5,5,4,1,3,2,5,1,3,4,2,4,3,1,4,5,1,2,Good team support,External news affecting mood,Better communication tools,10/20/2025
