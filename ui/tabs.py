@@ -140,7 +140,7 @@ def render_tabs(results_df, filters):
                     use_container_width=True
                 )
 
-            # Optional: Add a small table below for exact values
+            # Table for exact values
             latest = results_df.sort_values('month').groupby('group').last()
             high_risk_row = latest.sort_values('CRI', ascending=False).iloc[0]
             group_name = high_risk_row.name
@@ -160,12 +160,13 @@ def render_tabs(results_df, filters):
 
     with tab4:
         st.subheader("Detailed Signal Data")
-        # Clean display: remove redundant 'group' column
+
         display_df = results_df.copy()
         agg_col = filters["agg_level"].lower().replace(" ", "_")
         if agg_col in display_df.columns and 'group' in display_df.columns:
             if (display_df[agg_col] == display_df['group']).all():
                 display_df = display_df.drop(columns=['group'])
+        
         # Rename for consistency
         display_df = display_df.rename(columns={agg_col: "Group"})
         styled = display_df.style.format({

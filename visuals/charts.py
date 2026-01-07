@@ -20,7 +20,7 @@ def plot_trend(df):
     ax.set_xlabel("Month")
     ax.grid(True, alpha=0.3, linestyle='--')
 
-    # Optional: Add risk threshold bands
+    # Risk threshold bands
     ax.axhspan(0, 39, color='#16c961', alpha=0.2, label='Low Risk')
     ax.axhspan(39, 69, color='#f39c12', alpha=0.2, label='Medium Risk')
     ax.axhspan(69, 100, color='#e73825', alpha=0.2, label='High Risk')

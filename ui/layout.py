@@ -10,7 +10,7 @@ def setup_page():
 def inject_css():
     st.markdown("""
     <style>
-        /* Sidebar (keep your working styles) */
+        /* Sidebar */
         section[data-testid="stSidebar"] > div:first-child {
             box-sizing: border-box !important;
         }
@@ -36,7 +36,7 @@ def inject_css():
             padding-bottom: 100px !important;
         }
 
-        /* Fixed footer - centered text, adjusts to main area */
+        /* Footer */
         .custom-footer {
             position: fixed;
             bottom: 0;
@@ -51,15 +51,9 @@ def inject_css():
             font-size: 0.9rem;
             border-top: 1px solid #333;
             z-index: 999;
-            pointer-events: none;  /* Allows clicking through if needed */
+            pointer-events: none; 
         }
 
-        /* When sidebar expanded: add left margin to footer to match main content */
-        section[data-testid="stSidebar"]:not([aria-expanded="false"]) ~ [data-testid="stAppViewContainer"] .custom-footer,
-        [data-testid="stSidebar"][aria-expanded="true"] ~ [data-testid="stAppViewContainer"] .custom-footer {
-            left: 360px !important;
-            right: 0;
-        }
     </style>
     """, unsafe_allow_html=True)
 
@@ -77,14 +71,6 @@ def render_header():
         st.info("All data is processed in aggregate only. Individual responses are never identified.")
 
     with st.expander("# 🚀 How to Use the Conflict Risk Early Warning Dashboard", expanded=False):
-        
-        st.markdown("""
-        This tool helps HR leaders and people teams detect **early signals of workplace strain** using aggregated survey and HR data.
-
-        **All data is processed anonymously and in aggregate only** — individual responses are never identified.
-        """)
-
-        st.info("Follow these steps to generate insights:")
 
         st.markdown("### Step 1: Download Templates")
         col1, col2, col3 = st.columns(3)

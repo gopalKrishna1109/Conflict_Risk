@@ -38,7 +38,6 @@ def render_sidebar():
         selected_roles = st.multiselect("Role Levels", roles, default=roles)
         selected_locations = st.multiselect("Locations", locations, default=locations)
 
-        # Fixed: Removed brackets
         agg_level = st.radio("Aggregate results by", ["Department", "Role Level", "Location"], index=0)
 
     filters = {
@@ -61,5 +60,5 @@ def render_sidebar():
         st.warning("No data matches your filters. Please adjust.")
         st.stop()
 
-    # Return filtered survey + full hr (hr_df may need merging later)
+    # Return filtered survey + full hr 
     return filtered_survey, hr_df, filters
