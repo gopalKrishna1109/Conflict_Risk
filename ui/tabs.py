@@ -1,5 +1,6 @@
 import streamlit as st
 from visuals.charts import plot_trend, plot_group_bar, plot_radar
+from io import BytesIO
 
 def render_tabs(results_df, filters):
     if results_df.empty:
@@ -9,7 +10,7 @@ def render_tabs(results_df, filters):
     tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
         "Executive Overview",
         f"{filters['agg_level']} View",
-        "Component Drivers",      # ← NEW TAB
+        "Component Drivers",      
         "Signal Drivers",
         "What This Means",
         "Recommended Actions"
@@ -86,11 +87,33 @@ def render_tabs(results_df, filters):
 
             # Trend chart below metrics
             st.markdown("### Organization-Wide CRI Trend")
-            plot_trend(results_df)
+            fig_trend = plot_trend(results_df)  # Now returns fig
+            if fig_trend:
+                buf = BytesIO()
+                fig_trend.savefig(buf, format="png", bbox_inches='tight', dpi=200)
+                buf.seek(0)
+                st.download_button(
+                    label="📥 Download Trend Chart",
+                    data=buf,
+                    file_name="cri_trend.png",
+                    mime="image/png",
+                    use_container_width=True
+                )
 
     with tab2:
         st.subheader(f"Current Risk Levels by {filters['agg_level']}")
-        plot_group_bar(results_df)
+        fig_bar = plot_group_bar(results_df)  # Returns fig
+        if fig_bar:
+            buf = BytesIO()
+            fig_bar.savefig(buf, format="png", bbox_inches='tight', dpi=200)
+            buf.seek(0)
+            st.download_button(
+                label="📥 Download Risk Levels Chart",
+                data=buf,
+                file_name="risk_levels.png",
+                mime="image/png",
+                use_container_width=True
+            )
 
     with tab3:  
         st.header("Component Drivers")
@@ -104,7 +127,18 @@ def render_tabs(results_df, filters):
             st.info("Upload data and apply filters to see component drivers.")
         else:
             # Show radar for highest-risk group
-            plot_radar(results_df)
+            fig_radar = plot_radar(results_df)  # Returns fig
+            if fig_radar:
+                buf = BytesIO()
+                fig_radar.savefig(buf, format="png", bbox_inches='tight', dpi=200)
+                buf.seek(0)
+                st.download_button(
+                    label="📥 Download Radar Chart",
+                    data=buf,
+                    file_name="component_drivers.png",
+                    mime="image/png",
+                    use_container_width=True
+                )
 
             # Optional: Add a small table below for exact values
             latest = results_df.sort_values('month').groupby('group').last()

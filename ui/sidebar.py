@@ -24,6 +24,7 @@ def render_sidebar():
         survey_df, hr_df = load_data(survey_file, hr_file)
 
         st.markdown("---")
+
         st.header("⚙️ Filters & Settings")
 
         # Get unique values from full data

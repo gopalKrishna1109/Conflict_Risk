@@ -28,6 +28,7 @@ def plot_trend(df):
     ax.legend(title="Group", bbox_to_anchor=(1.05, 1), loc='upper left')
 
     st.pyplot(fig)
+    return fig
 
 def plot_group_bar(df):
     if df.empty:
@@ -79,6 +80,7 @@ def plot_group_bar(df):
     ax.tick_params(axis='y', labelsize=10)
 
     st.pyplot(fig)
+    return fig
 
 def plot_radar(df):
     if df.empty:
@@ -132,3 +134,4 @@ def plot_radar(df):
     ax.set_facecolor('#0e1117')
 
     st.pyplot(fig)
+    return fig
