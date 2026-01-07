@@ -76,6 +76,59 @@ def render_header():
     with st.expander("ℹ️ Important: Privacy & Purpose", expanded=False):
         st.info("All data is processed in aggregate only. Individual responses are never identified.")
 
+    with st.expander("# 🚀 How to Use the Conflict Risk Early Warning Dashboard", expanded=False):
+        
+        st.markdown("""
+        This tool helps HR leaders and people teams detect **early signals of workplace strain** using aggregated survey and HR data.
+
+        **All data is processed anonymously and in aggregate only** — individual responses are never identified.
+        """)
+
+        st.info("Follow these steps to generate insights:")
+
+        st.markdown("### Step 1: Download Templates")
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            with open("template_workplace_climate_survey.csv", "rb") as f:
+                st.download_button(
+                    "📄 Download Survey Template (CSV)",
+                    f,
+                    file_name="workplace_climate_survey_template.csv",
+                    mime="text/csv"
+                )
+        with col2:
+            with open("template_hr_operational_metrics.csv", "rb") as f:
+                st.download_button(
+                    "📊 Download HR Metrics Template (CSV)",
+                    f,
+                    file_name="hr_operational_metrics_template.csv",
+                    mime="text/csv"
+                )
+        with col3:
+            with open("survey_questions.txt", "rb") as f:
+                st.download_button(
+                    "❓ Download Survey Questions (TXT)",
+                    f,
+                    file_name="employee_survey_questions.txt",
+                    mime="text/plain"
+                )
+
+        st.markdown("### Step 2: Collect Your Data")
+        st.markdown("""
+        - Use the **Survey Template** to collect anonymous employee responses collected using **survey questions** (1–5 scale).
+        - Use the **HR Metrics Template** to input monthly operational data by department.
+        - Refer to the **Survey Questions** file to ensure consistent wording.
+        """)
+
+        st.markdown("### Step 3: Upload Your Files")
+        st.markdown("""
+        Once ready:
+        - Upload your filled **Workplace Climate Survey CSV** → top uploader
+        - Upload your filled **HR Operational Metrics CSV** → bottom uploader
+
+        The dashboard will instantly generate insights.
+        """)
+
 def render_footer():
     st.markdown("""
     <div class="custom-footer">

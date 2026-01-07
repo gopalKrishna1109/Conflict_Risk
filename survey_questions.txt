@@ -1,0 +1,27 @@
+Workplace Climate Survey Questions (1 = Strongly Disagree → 5 = Strongly Agree)
+
+Trust & Psychological Safety
+q1. I feel respected by my colleagues.
+q2. I can share my opinions without fear of negative consequences.
+q3. People here treat each other with respect regardless of role or background.
+q4. I feel psychologically safe to take risks on this team.
+q5. Disagreements are handled constructively.
+
+Communication & Collaboration
+q6. Communication across teams is clear and effective.
+q7. Information flows freely when needed.
+q8. Meetings are productive and inclusive.
+q9. Feedback is given constructively and regularly.
+q10. I feel heard when I raise concerns.
+
+Change & Adaptation
+q11. Recent changes have been communicated clearly.
+q12. I understand the reasons behind major decisions.
+q13. I feel supported during periods of change.
+q14. Change is managed in a way that minimizes unnecessary stress.
+
+Overall Engagement
+q15. I would recommend this organization as a great place to work.
+q16. I feel a sense of belonging here.
+q17. I am proud to work for this organization.
+q18. I see a clear connection between my work and the organization's goals.
