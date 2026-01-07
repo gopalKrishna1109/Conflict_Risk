@@ -12,6 +12,11 @@ inject_css()
 render_header()
 
 # -----------------------------
+# Fixed Footer - rendered early so it's always visible
+# -----------------------------
+render_footer()   
+
+# -----------------------------
 # Sidebar: Upload + Filters
 # -----------------------------
 survey_df, hr_df, filters = render_sidebar()
@@ -30,7 +35,3 @@ results_df = process_data(
 # -----------------------------
 render_tabs(results_df, filters)
 
-# -----------------------------
-# Footer
-# -----------------------------
-render_footer()
